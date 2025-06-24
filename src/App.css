@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Mondwest:wght@400;700&family=Saira:wght@400;700&display=swap");
+@font-face {
+  font-family: "Joystix";
+  src: url("./joystix_monospace.ttf") format("truetype");
+}
+
+.container-head {
+  display: flex;
+  justify-content: center;
+  background-color: #0f0e0c;
+  width: 100%;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  text-align: center;
+  margin: 0px;
+  padding: 0;
+  border-bottom: #fce184;
+  border-right: #0f0e0c;
+  border-left: #0f0e0c;
+  border-top: #fce184;
+  border-width: 1px;
+  border-style: solid;
+  overflow: hidden;
+  max-height: 3em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  border-color: #fce184;
+  border-width: 0px;
+  border-style: solid;
+  border-top: transparent;
+  width: 100vw;
+  height: 100%;
+}
+
+.App-Navbar {
+  background-color: #fce18490;
+  color: #fef8e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.imageStyle {
+  max-width: 35vw;
+  max-height: 50vh;
+  display: block;
+}
+
+.image-space {
+  height: 50vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .imageStyle {
+    max-width: 80vw;
+    max-height: unset;
+  }
+  .image-space {
+    height: 25vh;
+  }
+}
+
+.row {
+  min-height: calc(100vh - 56px);
+}
+
+.App {
+  overflow: hidden;
+  width: 100%;
+  background-color: #fce18430;
+}
+
+body {
+  font-family: "Joystix", "Mondwest", sans-serif;
+  background-color: #0f0e0c;
+  background-image: url("../src/background.png");
+  background-attachment: scroll;
+  width: 100%;
+}
+
+.btn {
+  color: #fce184;
+  background-color: #0f0e0c70;
+  border-color: #fce184;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.btn-primary {
+  color: #fce184;
+  background-color: #0f0e0c50;
+  border-color: #fce184;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.btn:disabled {
+  color: #fce184;
+  background-color: #0f0e0c;
+  border-color: #fce184;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.form-control[type="file"]:not(:disabled):not([readonly]) {
+  cursor: pointer;
+  background-color: #0f0e0c50;
+  color: #fce184;
+  border-color: #fce184;
+}
+
+.Generator {
+  text-align: center;
+}
+
+.Generator-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Generator-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.Generator-link {
+  color: #61dafb;
+}
+
+@keyframes Generator-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

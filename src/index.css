@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: 'Joystix', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fce184;
+}
+
+code {
+  font-family: 'Joystix', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    color: #fce184;
+}
+
+h1{
+  font-size: 1em;
+  text-wrap: nowrap;
+  text-align: center;
+  align-items: center;
+}
